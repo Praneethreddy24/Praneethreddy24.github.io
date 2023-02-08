@@ -1,67 +1,40 @@
-<html lang="en">
-<!-- 
- * This is an HTML comment to you dear reader.
- * Below is an example of some sexy HTML code.
- * PURPOSE: HTML denotes meaning to plain text content.
- * Tidy little head section. 
- * Followed by a body section. Like every human, an HTML doc has a head and a body, and they're surprisingly similar in function.  -->    
-<head>
- <title>What Sexy HTML5 Looks like</title>
- <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<!-- 
- * CSS Stylesheets: 
- * PURPOSE: PRESENTATION  / Styling of HTML
- * CSS is HTML's partner-in-crime.
- * Done right, CSS stylesheets control your presentation, for a wide array of media from web of course, but also print, TV, braille, and auriel assistive devices.
- * Note the "media" attribute below to tells computers what medium it's intended to style for.
--->
- <link href="https://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400i|Oswald:300,400,700" rel="stylesheet" media="all"> 
- <link rel="stylesheet" type="text/css" href="css/styles.css media="screen, projection" />                    
- <link rel="stylesheet" type="text/css" href="css/print.css" media="print" />
-<!--
- * Javascript:
- * PURPOSE:  FUNCTIONALITY. 
- * Major Downside: Not search friendly to bots in general. Extra work must be done for search engines and assistive devices to have access  javascript based content :(
- * Javascript is like the cool kid on the block that can do anything. You could create your whole website using Javascript. 
--->
- <script type="text/js" src="scripts/fun-stuff.js"></script>
-</head>
-
-<body id="home"><!-- Body ID'd, useful for CSS stuff, and JS too -->
- <header>
-  <h1>Sexy <abbr title="Hypertext Markup Language, HTML5">HTML</abbr></h1>
-</header>
-<main>
- <section id="page-wrap">
-  <article>
-   <p>Last time <a href="https://www.google.com/search?client=safari&rls=en&q=What+is+HTML%3F&ie=UTF-8&oe=UTF-8" target="_blank">I searched Google for &ldquo;What is HTML?&rdquo;</a>, it gave me one of those hand-picked &amp; emphasized aswers:</p>
-<hr />
- <blockquote>
-  <h3><abbr title="Hypertext Markup Language, with HTML5 being the latest specification">HTML</abbr></h3>
-  <em>noun</em> COMPUTING<br />
-  <q>Hypertext Markup Language, a standardized system for tagging text files to achieve font, color, graphic, and hyperlink effects on World Wide Web pages.</q>
-  <cite>
-   <a href="https://www.google.com/search?client=safari&rls=en&q=What+is+HTML%3F&ie=UTF-8&oe=UTF-8" target="_blank">Google&rsquo;s Answer</a>
-   </cite>
-  </blockquote>
-<hr />
-                                                                                                                   <h2><abbr title="What the Frig?">WTF</abbr><span class="text--normal text--bigger">‽</span></h2>
- <p>This seems deceivingly inaccurate and overly complex to me. HTML&rsquo;s purpose is to be an interface between man and machine, and as such, makes content more accessible and defined.</p>
- <h2>That&rsquo;s <abbr title="Hypertext Markup Language">HTML</abbr>&rsquo;s purpose.</h2>
- <p>To take <del class="muted">plain&ndash;<span class="monospace">jane, looks like it came from a typewriter</span>&ndash;text</del> Plain-Text, like <abbr title="Microsoft">MS</abbr> Notepad or similar simple word-processing programs produces, and assign the content general meaning, such a headlines, paragraphs, quotes, lists (numbered &amp; bulleted) etc. A complete list is available here in the <a href="//cantquitcodin.com/resource-library/html-tags" title="" target="_blank" rel="follow,index,noopener">Can&rsquo;t Quit Codin&rsquo; <abbr title="Hypertext Markup Language">HTML</abbr> Resource Library</a>.</p>
- <h2>Sexy, Semantic <abbr title="Hypertext Markup Language, includes the HTML5 specification and is how you can High-Tech My Language">HTML</abbr> is&hellip;</h2>
- <ul>
- <li>Lightweight and loads fast</li>
- <li>Fits on all screens</li>
- <li>Looks the same in all browsers</li>
- <li>Accessible to every human &amp; &rsquo;bot that visits your site</li>
- <li>Legible and gets your point across</li>
- </ul>
- </article>
-</main>
- <aside>
- 
-                                                                                                                                      </aside>
-</section>
-</body>
-</html>	
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>My Website with a Background Image</title>
+    <style>
+      body {
+        background-image: url('https://source.unsplash.com/1600x900/?nature');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+      }
+      h1 {
+        margin: 0;
+        font-size: 42px;
+        text-shadow: 2px 2px 4px #000;
+      }
+      p {
+        margin: 20px 0;
+        font-size: 18px;
+        text-shadow: 1px 1px 2px #000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Explore the Beauty of Nature</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In auctor enim euismod, faucibus lacus non, tempor metus. In hac habitasse platea dictumst. Sed posuere placerat lorem, vel hendrerit magna. Suspendisse potenti. </p>
+    </div>
+  </body>
+</html>
